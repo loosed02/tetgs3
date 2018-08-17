@@ -22,5 +22,4 @@ const client = new Discord.Client({
     client.on('message', message => require('./events/message.js')(client, message));
     client.on('message', message => require('./events/ticket/message.js')(client, message));
 
- 
 client.login(process.env.TOKEN);

@@ -1,5 +1,4 @@
 const Discord  = require("discord.js");
-var randomstring = require("randomstring");
 module.exports = async(client, message) => {
     if(message.content.toLowerCase().startsWith(`-new`)) {
         const reason = message.content.split(" ").slice(1).join(" ");
