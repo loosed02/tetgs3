@@ -1,5 +1,4 @@
 const Discord = require(`discord.js`);
-const auth = require(`./settings/config.json`)
 const Enmap = require("enmap");
 const fs = require(`fs`);
 const client = new Discord.Client({
