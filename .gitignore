@@ -3,3 +3,5 @@ commands/
 data/
 events/
 settings/
+Procfile
+package-lock.json
